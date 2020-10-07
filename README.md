@@ -2,7 +2,7 @@
 ## For the CI mini project for a resume build.
 
 
-<h1 align="center">George Lychock Resume Mini Project/h1>
+<h1 align="center">George Lychock Resume Mini Project</h1>
 
 [View the live project here.](http://www.georgelychock-career.com/pages/test/resume/index.html)
 
