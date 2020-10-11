@@ -4,8 +4,11 @@
 
 /* Imports */
 /* Base Element styles */
+/* Portfolio styles */
+
+
 /* Container styles */
-/* Features styles */
+
 /* Jumbotron styles */
 /* Narbar styles */
 /* Buttons */
@@ -16,3 +19,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
+/* Base Element styles */
+header {
+    margin: 0;
+}
+
+
+/* Portfolio styles */
+.logo {
+    background-image: url("../images/hero-07.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.bg-color-name-title {
+    background-color: #557196;
+}
+.name {
+    color: white;
+}
+.title {
+    color: #80aae2;
+}
+.headings {
+
+}
