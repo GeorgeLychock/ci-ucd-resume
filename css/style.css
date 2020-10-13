@@ -1,6 +1,6 @@
 /* george lychock resume stylesheet */
 
-/* CSS Sections - In Order of Appearance:: */
+/* CSS TOC - In Order of Appearance:: */
 
 /* Imports */
 /* Base Element styles */
@@ -8,6 +8,7 @@
 /* Portfolio styles */
 /* Nav styles */
 /* Hover.css styles */
+/* Footer styles */
 
 /* NOT USED.... */
 /* Container styles */
@@ -44,11 +45,14 @@ h1, h2, h3, h4 {
     font-weight: 300;
     color: #fafafa;
 }
+.inline-block {
+    display: inline-block;
+}
 
 
 /* Portfolio styles */
 .logo {
-    background-image: url("../images/hero-07a.jpg");
+    background-image: url("../assets/images/hero-07a.jpg");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,4 +145,43 @@ h1, h2, h3, h4 {
  }
 
 /* Footer styles */
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.cv-pdf i:hover {
+    color: #e84610;
+}
+.social-links {
+    padding-bottom: 15px;
+}
 
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
