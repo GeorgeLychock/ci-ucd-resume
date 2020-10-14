@@ -8,6 +8,7 @@
 /* Portfolio styles */
 /* Nav styles */
 /* Hover.css styles */
+/* Contact Info styles */
 /* Footer styles */
 
 /* NOT USED.... */
@@ -50,7 +51,7 @@ h1, h2, h3, h4 {
 }
 
 
-/* Portfolio styles */
+/* Header and Nav styles */
 .logo {
     background-image: url("../assets/images/hero-07a.jpg");
     background-position: right top;
@@ -143,6 +144,12 @@ h1, h2, h3, h4 {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
  }
+/* Main Content: Contact Info styles */
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+
 
 /* Footer styles */
 .cv-pdf i {
