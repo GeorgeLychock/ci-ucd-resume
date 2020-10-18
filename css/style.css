@@ -18,6 +18,17 @@
 /* Buttons */
 /* Spacer and Divider styles */
 
+/* Thinking about putting a copy of all the color styles here; CLASSES only:
+
+.bg-color-name-title {
+    background-color: #699;
+}
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+etc...
+*/
+
 
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
@@ -64,7 +75,7 @@ h1, h2, h3, h4 {
     margin-bottom: 40px;
 }
 
-/* Header and Nav styles */
+/* Heading styles*/
 .logo {
     background-image: url("../assets/images/hero-07a.jpg");
     background-position: right top;
@@ -84,7 +95,6 @@ h1, h2, h3, h4 {
     font-weight: 200;
     font-size: 46px;
     margin-top: 50px;
-    
 }
 .title {
     color: #c2d6d6;
@@ -93,7 +103,6 @@ h1, h2, h3, h4 {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-
 }
 .heading {
     margin-left: 50px;
@@ -152,17 +161,58 @@ h1, h2, h3, h4 {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 /* Hover.css styles */
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
  }
+
 /* Main Content: Contact Info styles */
 .bg-color-three-reasons {
     background-color: #fff;
 }
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
 
+/* Main Content: Personal Info styles */
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+.personal-info-item .key p,
+.personal-info-item.value p {
+    margin: 0;
 
+}
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+.personal-info-item .key p {
+font-weight: 700;
+}
+
+.personal-info-item.value {
+    position: relative;
+    width: 60%;
+}
 
 /* Footer styles */
 .cv-pdf i {
