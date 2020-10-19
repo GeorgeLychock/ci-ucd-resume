@@ -1,15 +1,20 @@
 /* george lychock resume stylesheet */
 
-/* CSS TOC - In Order of Appearance:: */
 
-/* Imports */
+
+/* ######## CSS TOC - In Order of Appearance: */
+/* @Imports */
 /* Base Element styles */
 /* Common styles */
-/* Portfolio styles */
+/* Heading styles */
 /* Nav styles */
 /* Hover.css styles */
-/* Contact Info styles */
+/* Main Content: Home Contact Info styles */
+/* Main Content: Home Personal Info styles */
+/* Main Content: Resume styles */
+/* Main Content: Contact styles */
 /* Footer styles */
+/* @Media Breakpoint Styles */
 
 /* NOT USED.... */
 /* Container styles */
@@ -17,6 +22,9 @@
 /* Narbar styles */
 /* Buttons */
 /* Spacer and Divider styles */
+/*########## /CSS TOC */
+
+
 
 /* Thinking about putting a copy of all the color styles here; CLASSES only:
 
@@ -33,6 +41,7 @@ etc...
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
+
 /* Base Element styles */
 header {
     margin: 0;
@@ -46,6 +55,16 @@ footer {
 h1, h2, h3, h4 {
     margin: 0;
 }
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* Framework Override styles */
+/* Future home of Framework Override styles */
+/* I think framework (Bootstrap) Overides should be kept in one location */
 
 
 /* Common styles */
@@ -168,7 +187,7 @@ h1, h2, h3, h4 {
     height: 120px;
  }
 
-/* Main Content: Contact Info styles */
+/* Main Content: Home Contact Info styles */
 .bg-color-three-reasons {
     background-color: #fff;
 }
@@ -180,7 +199,7 @@ h1, h2, h3, h4 {
     margin-bottom: 15px;
 }
 
-/* Main Content: Personal Info styles */
+/* Main Content: Home Personal Info styles */
 .bg-color-personal-info {
     background-color: #f4f4f4;
 }
@@ -278,6 +297,23 @@ font-weight: 700;
     margin-bottom: 30px;
 }
 
+/* Main Content: Contact styles */
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.bg-color-contact {
+    background-color: #fff;
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+
 /* Footer styles */
 .cv-pdf i {
     font-size: 18px;
@@ -318,4 +354,14 @@ font-weight: 700;
 
 #footer-details {
     padding: 20px;
+}
+
+/* Media Breakpoint Styles */
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+    }
 }
